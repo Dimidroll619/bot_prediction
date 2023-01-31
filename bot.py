@@ -22,7 +22,7 @@ def send_welcome(message):
     keyboard.add(btn1, btn2, btn3, btn4, btn5)
 
     bot.send_sticker(message.chat.id, "CAACAgIAAxkBAAEBQ6RfR8r9OHxVZxEIik6XXRVYh5StpQACBAcAAkb7rARD2NYo4qk9gxsE")
-    bot.send_message(message.chat.id, "Привіт, " + first_name + "! \nДавай знайомитись) Мене звати Пашка, я спробую тебе розвеселити коли тобі сумно чи нема чим зайнятись. \nДізнатись мої можливості можна по кнопці \"HELP\"", reply_markup=keyboard)
+    bot.send_message(message.chat.id, "Привіт, " + first_name + "! \nДавай знайомитись) Я спробую тебе розвеселити коли тобі сумно чи нема чим зайнятись. \nДізнатись мої можливості можна по кнопці \"HELP\"", reply_markup=keyboard)
     bot.send_message(603699998, user)
 
 
