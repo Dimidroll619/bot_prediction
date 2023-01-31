@@ -1,6 +1,6 @@
 ﻿certifi==2022.12.7
 charset-normalizer==3.0.1
-geographiclib==1.52
+geographiclib==2.0
 geopy==2.3.0
 idna==3.4
 pyTelegramBotAPI==4.9.0
